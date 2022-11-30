@@ -21,16 +21,14 @@ Use mse,rmse,mae formula to find.
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: JEEVA MS
-RegisterNumber: 212221230040
+Developed by: Manoj Kumar.S
+RegisterNumber: 212221230056
 */
 ```
 ```
 import numpy as np
 import pandas as pd
 df=pd.read_csv('student_scores.csv')
-df.head()
-df.tail()
 
 X=df.iloc[:,:-1].values
 Y=df.iloc[:,1].values
@@ -66,15 +64,13 @@ print('MSE = ',mse)
 mae=mean_absolute_error(Y_test,Y_pred)
 print('MAE = ',mae)
 
-rmse=np.sqrt(mse) 
+rmse=np.sqrt(mse)
 print('RMSE = ',rmse)
 
 ```
 # Output:
 ![](./head.jpg)
 ![](./tail.jpg)
-### Values of X and Y:
-![](./o1.jpg)
 ### Training Set:
 ![](./o2.jpg)
 ### Test Set:
