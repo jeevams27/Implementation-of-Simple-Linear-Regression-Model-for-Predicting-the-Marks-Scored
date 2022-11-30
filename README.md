@@ -21,8 +21,8 @@ Use mse,rmse,mae formula to find.
 ```
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Manoj Kumar.S
-RegisterNumber: 212221230056
+Developed by: MS.JEEVA
+RegisterNumber: 212221230040
 */
 ```
 ```
